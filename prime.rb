@@ -1,4 +1,6 @@
 # Add  code here!
+require 'pry'
+
 def prime?(num)
   primes = []
     return true if primes.include?(num)
@@ -6,6 +8,7 @@ def prime?(num)
   (2...num).each do |i|
     return false if num % i == 0
   end
+  binding.pry
   primes << num
     true
 end
