@@ -6,7 +6,7 @@ def prime?(num)
   (2...num).each do |i|
     return false if num % i == 0
   end
-  primes.add(num)
+  primes << num
     true
 end
 
