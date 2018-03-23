@@ -1,7 +1,6 @@
 require_relative './spec_helper'
 require_relative '../prime.rb'
-require 'pry'
-require '/prime.rb'
+
 
 
 describe "prime?" do
